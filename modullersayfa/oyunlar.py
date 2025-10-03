@@ -9,5 +9,15 @@ def oyunlarm():
     print("║                              ║")
     print("║    Lütfen seçim yapınız :)   ║")
     print("╚"+"═"*30+"╝")
-    input()
+    secim = input()
+
+    if secim == "1":
+        import moduller.yılanoyunu
+        moduller.yılanoyunu.yılanoyunum()
+    if secim == "2":
+        import moduller.mat1
+        moduller.mat1.mat1m()
+    if secim == "3":
+        import moduller.taskagıtmakas
+        moduller.taskagıtmakas.taskagıtmakasm()
 

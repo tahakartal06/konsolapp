@@ -12,9 +12,9 @@ def alanvecevrem():
     secim = input()
     if secim == "1" or secim == "k":
         import moduller.karealan
-        moduller.karealanproje()
+        moduller.karealan.karealanm()
     if secim == "2" or secim == "d":
         import moduller.dikalancevre
-        moduller.dikalancevre()
+        moduller.dikalancevre.dikalancevrem()
 if __name__ == "__main__":
     alanvecevrem()

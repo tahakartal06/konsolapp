@@ -1,4 +1,4 @@
-
+def mat1m():
     import random
     print(" *** Matematik alıştırmaları programı ***")
     devam = "evet"

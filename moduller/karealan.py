@@ -1,4 +1,4 @@
-def karealan():
+def karealanm():
 
     kenar = int(input("Kenar uzunluğu giriniz?"))
 
